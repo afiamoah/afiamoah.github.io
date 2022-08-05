@@ -1,0 +1,48 @@
+#partners {
+  margin-top: 20px;
+}
+
+.last {
+  margin-top: 40px;
+  background-color: red;
+}
+
+@media (min-width: 768px) {
+  .partners {
+    display: none;
+  }
+
+  #s-image {
+    display: block;
+  }
+
+  #f-image {
+    display: none;
+  }
+
+  #maxfooter {
+    display: block;
+  }
+
+  #minfooter {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #f-image {
+    display: block;
+  }
+
+  #s-image {
+    display: none;
+  }
+
+  #maxfooter {
+    display: none;
+  }
+
+  #minfooter {
+    display: block;
+  }
+}
